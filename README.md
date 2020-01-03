@@ -18,3 +18,16 @@ clone repo `SPC SPC magit-clone`
 magit menu `SPC g m`  
 open a magit status window `SPC g s`  
 stage current file `SPC g S`  
+
+## multi-term
+open term `SPC SPC multi-term`
+exit `ESC`
+
+## buffer
+new buffer `SPC b N`
+next buffer `SPC b n`
+previus buffer `SPC b p`
+buffer list `SPC b h`
+
+# Error 
+`find ~/.emacs.d/elpa/ -name "*etc" -delete` 
